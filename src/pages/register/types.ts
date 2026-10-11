@@ -1,0 +1,13 @@
+export interface IRegisterType
+{
+    firstName: string;
+    lastName: string;
+    email: string;
+    password: string;
+    confirmPassword: string;
+    imageFile: File|null;
+}
+
+export interface IServerError {
+    error: string;
+}
